@@ -1,0 +1,17 @@
+*.dtbcache
+.vs/
+WindowsFormsApp2/WindowsFormsApp2.csproj.user
+*.dll
+*.exe
+WindowsFormsApp2/bin/Debug/netcoreapp3.0/WindowsFormsApp2.pdb
+WindowsFormsApp2/bin/Debug/netcoreapp3.0/WindowsFormsApp2.runtimeconfig.dev.json
+*.json
+WindowsFormsApp2/obj/WindowsFormsApp2.csproj.nuget.cache
+WindowsFormsApp2/obj/WindowsFormsApp2.csproj.nuget.g.props
+WindowsFormsApp2/obj/WindowsFormsApp2.csproj.nuget.g.targets
+WindowsFormsApp2/obj/Debug/netcoreapp3.0/WindowsFormsApp2.AssemblyInfo.cs
+WindowsFormsApp2/obj/Debug/netcoreapp3.0/WindowsFormsApp2.AssemblyInfoInputs.cache
+WindowsFormsApp2/obj/Debug/netcoreapp3.0/WindowsFormsApp2.assets.cache
+WindowsFormsApp2/obj/Debug/netcoreapp3.0/WindowsFormsApp2.csproj.FileListAbsolute.txt
+WindowsFormsApp2/obj/Debug/netcoreapp3.0/WindowsFormsApp2.csprojAssemblyReference.cache
+WindowsFormsApp2/obj/Debug/netcoreapp3.0/WindowsFormsApp2.pdb
