@@ -148,19 +148,26 @@ namespace WindowsFormsApp2
                     posi = x.Next(0, mapsize);
                     posj = x.Next(0, mapsize);
                 }
-                
+
                 for (int i = posi - 1; i <= posi + 1; i++)
                 {
                     for (int j = posj - 1; j <= posj + 1; j++)
                     {
-                        if (i >= 0 && i < mapsize && j >= 0 && j < mapsize && map[i, j] != -1)
+                        if (i >= 0 && i < mapsize && j >= 0 && j < mapsize) { }
+                        else
+                        {
+                            if (i < 0) { i++; }
+                            if (j < 0) { j++; }
+                            if (i >= mapsize) { break; }
+                            if (j >= mapsize) { break; }
+                        }
+                        if (map[i, j] != -1)
                         {
                             map[i, j]++;
-                        }                        
+                        }
                     }
                 }
                 map[posi, posj] = -1;
-
             }
         }
         private void fillMap()
